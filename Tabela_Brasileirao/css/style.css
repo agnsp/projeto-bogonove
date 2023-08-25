@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam:wght@100;400 & display=swap' );
+
+h1 {
+  margin: 0.1rem 0;
+  text-align: center
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Anek Malayan', sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+table{
+    width: 100vw;
+    text-align: center;
+}
+
+td{
+    height: 50px;
+    width: 104px;
+    color: #9db7a9;
+}
+
+.tabela-brasileirao{
+    position: absolute;
+    margin-top: 110px;
+    z-index: -1;
+    border: 1px solid #e9eaeb;
+    border-top:none;
+    border-bottom:none;
+    width: 40vw;
+    margin-left: 30%;
+    font-size: 0.75em;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.tabela-brasileirao th{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+
+}
+.tabela-brasileirao td{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 100;
+    color: #000000;
+    padding: 4px;
+    height: 41px;
+    font-size: 1.2em;
+
+}
+
+.tabela-brasileirao img{
+    width: 25px;
+}
+
+.tabela-colunas-bordas{
+    border-top: none !important;
+}
+
+.titulo-clube{
+    width: 35%;
+    text-align: left;
+}
+
+.borda-azul{
+    border-left: 3px solid #4285f4;
+}
+
+.borda-laranja{
+    border-left: 3px solid #fa7b17;
+}
+
+.borda-verde{
+    border-left: 3px solid #34a853;
+}
+
+.borda-vermelho{
+    border-left: 3px solid #ea4335;
+}
+
+.borda-branco{
+    border-left: 3px solid white
+}
+
